@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+
+    min-height: 100vh;
+}
+
+nav {
+
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 148px;
+    height: auto;
+}
+
+#menu {
+    font-size: 48px;
+    cursor: pointer;
+}
+
+/* width css */
+
+nav,
+.container,
+#shop,
+#contact {
+    width: 78.3%;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    background-color: #FEEAE9;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+
+#hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 8px;
+}
+
+#hero-content h1 {
+    font-size: 56px;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #1F1F1F;
+}
+
+#hero-content p {
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 26px;
+    color: #4E4E4E;
+}
+
+#tv-price {
+    font-size: 41px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #FF136F;
+}
+
+.btn button {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 20px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+}
+
+#shop {
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
+}
+
+
+
+#category-container,
+.shoes,
+#container-shoes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#category-container h1,
+#container-shoes h1{
+    font-size: 36px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #4E4E4E; */
+    border-radius: 16px;
+    width: 100%;
+    max-width: 359px;
+    height: 120px;
+    padding: 0 30px;
+}
+
+.ctn h2 {
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 500;
+}
+
+
+.watch {
+    background: linear-gradient(90deg, #FF9C35 0%, #FF9C35 100%);
+}
+
+.bag {
+    background: linear-gradient(90deg, #FF136F 0%, #FF136F 100%);
+}
+
+.shoe {
+    background: linear-gradient(90deg, #3F07F8 0%, #3F07F8 100%);
+}
+
+
+/* shoe css */
+
+
+
+#content-box {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 22px;
+    border-radius: 20px;
+    border: 2px solid #929292;
+    width: 100%;
+    max-width: 360px;
+}
+
+#shoes-ctn,
+#bag-ctn {
+    display: flex;
+    justify-content: space-between;
+}
+
+#content-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+#content-bottom h2 {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #1F1F1F;
+}
+
+#content-bottom p {
+    font-size: 16px;
+    font-family: "Inter";
+    color: #4E4E4E;
+    line-height: 26px;
+    text-align: center;
+}
+
+#content-bottom .data {
+    font-family: "Poppins";
+    font-size: 24px;
+    color: #1F1F1F;
+}
+
+
+#btn-black button {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    max-width: 168px;
+    padding: 14px 20px;
+    background: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px auto 100px auto;
+    background: #FEEAE9;
+    font-family: "Poppins";
+}
+
+#content-for-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 146px 246px;
+}
+#text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#text h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+
+#text p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+}
+
+#input {
+    display: flex;
+}
+
+#input input {
+    flex: 1;
+    width: 526px;
+    height: 73px;
+    padding: 20px;
+    border: none;
+}
+
+input::placeholder {
+    font-size: 24px;
+}
+
+#input button {
+    font-size: 24px;
+    width: 157px;
+    height: 73px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+    border-radius: 0 10px  10px  0;
+    color: #FFFFFF;
+}
